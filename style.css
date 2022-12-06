@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: min-content;
+    font-weight: bolder;
+    padding-left: 3%;
+    width: 60%
+}
+
+img {
+    size: 10%;
+}
