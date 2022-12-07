@@ -11,14 +11,14 @@
 }
 
 a {
+    text-decoration: none;
     font-weight: bold;
     color: black;
     padding-right: 1rem;
 }
 
 .title {
-    background-color: aquamarine;
-    /* background-image: url(icon.jpeg);
+    background-image: url(icon.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 30%;
