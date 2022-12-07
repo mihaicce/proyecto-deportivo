@@ -12,11 +12,15 @@ a {
 }
 
 .title {
+    background-image: url(icon.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 25%;
     display: grid;
     grid-template-columns: min-content;
     font-weight: bolder;
     padding-left: 3%;
-    width: 60%
+    width: 50%
 }
 
 img {
