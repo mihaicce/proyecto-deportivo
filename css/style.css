@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     padding-top: 2rem;
@@ -6,7 +12,6 @@
 
 a {
     font-weight: bold;
-    text-decoration: none;
     color: black;
     padding-right: 1rem;
 }
@@ -15,7 +20,7 @@ a {
     background-image: url(icon.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 25%;
+    background-position-x: 30%;
     display: grid;
     grid-template-columns: min-content;
     font-weight: bolder;
