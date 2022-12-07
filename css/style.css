@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .header {
     display: flex;
     padding-top: 2rem;
@@ -18,10 +19,6 @@ a {
 }
 
 .title {
-    background-image: url(icon.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: 30%;
     display: grid;
     /* grid-template-columns: min-content; */
     /* flex-direction: row;
