@@ -11,16 +11,13 @@
 }
 
 a {
+    text-decoration: none;
     font-weight: bold;
     color: black;
     padding-right: 1rem;
 }
 
 .title {
-    background-image: url(icon.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: 30%;
     display: grid;
     grid-template-columns: min-content;
     font-weight: bolder;
