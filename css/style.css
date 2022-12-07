@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     padding-top: 2rem;
@@ -5,17 +11,13 @@
 }
 
 a {
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
     color: black;
     padding-right: 1rem;
 }
 
 .title {
-    background-image: url(icon.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: 25%;
     display: grid;
     grid-template-columns: min-content;
     font-weight: bolder;
