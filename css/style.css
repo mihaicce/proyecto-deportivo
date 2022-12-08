@@ -11,6 +11,11 @@
     padding-bottom: 2rem;
 }
 
+.contenido {
+    width 80%
+    height: 100%;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
@@ -32,4 +37,83 @@ img {
     size: 10%;
     width: 1rem;
     height: 1rem;
+}
+
+.web {
+    background-color: rgb(88, 88, 119);
+    height: 4rem;
+    padding-top: 1.5rem;
+    padding-left: 8rem;
+}
+
+.subscribe {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-10%, -10%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe h4 {
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+}
+
+.subscribe .email {
+    height: 2rem;
+    position: relative;
+}
+
+.subscribe .email input {
+    height: 100%;
+    width: 12rem;
+    padding-left: 15%;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.7rem;
+    border: 0.1rem transparent rgb(137, 131, 131);
+}
+
+.subscribe .email .icon {
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    font-size: 1rem; 
+}
+
+.subscribe .email button {
+    position: absolute;
+    right: 6%;
+    transform: translate(12%, 12%);
+    padding: 2% 4%;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    border: 0.5rem transparent gray;
+    outline: none;
+    background: forestgreen; 
+    color: white;
+    transition: 0.3%;
+}
+
+.subscribe .email button:hover {
+    background: red;
+}
+
+.copy {
+    padding-top: 0.3rem;
+    height: 2rem;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(88, 88, 119);
+}
+
+.sponsors {
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: rgb(117, 117, 169);
 }
