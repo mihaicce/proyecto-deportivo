@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.title {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-right: 1rem;
+}
+
+img {
+    size: 10%;
+    width: 1rem;
+    height: 1rem;
+}

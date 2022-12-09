@@ -40,9 +40,9 @@
     grid-row: 2/5;
 }
 
-.img {
+/* .img {
     width: 10rem;
-}
+} */
 
 
 a {
@@ -62,11 +62,11 @@ a {
 
 }*/
 
-img {
+/* img {
     size: 10%;
     width: 1rem;
     height: 1rem;
-}
+} */
 
 .web {
     background-color: rgb(88, 88, 119);
