@@ -1,0 +1,16 @@
+.contenedor-galeria {
+    background-color: cadetblue;
+    width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+
+}
+
+.fotografia img {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
