@@ -5,19 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacts</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    
 
 </head>
 <body>
+    <header class="header">
+        <div class="title">
+          <img class="logo" src="img/BizkaiaBoggartsSnitch.png" alt="Logo del Equipo">
+        </div>
+        <div class="menu"> 
+          <nav>
+            <ul> 
+              <li><a href="about.html">ABOUT US</a><i class="fa-solid fa-broom-ball"></i>
+                <ul>
+                  <li><a href="juego.html">El juego</a></li>
+                 <li><a href="equipo.html">Nuestro equipo</a></li>
+                </ul></li>
+              <li><a href="photos.html">PHOTOS</a><i class="fa-solid fa-image"></i></li>   
+              <li><a href="news.html">NEWS</a><i class="fa-regular fa-file-lines"></i></li>
+              <li><a href="contacts.html">CONTACT</a><i class="fa-regular fa-envelope-open"></i></li>
+              </ul>
+              </nav>
+          <!-- <a href="contact">CONTACT <i style="font-size: 24px" class="far">&#xf2b6;</i></a> -->
+        </div>
+      </header>
+
     <div class="jugar">
         <h1>¿Te ha gustado QUIDDITCH?</h1>
          <h2>Si te animas a jugar o quieres ayudar con este deporte puedes ponerte en contacto con nosotros.</h2>        
            <ul>
                 <li>Si quieres jugar</li>
                 <li>Si quieres montar equipo en tu localidad</li>
-                <li>Si quieres que hagamos propaganda de tu empresa</li>
+                <li>Si quieres que hagamos publicidad de tu empresa</li>
                 <li>Si quieres apoyar con donativos</li>
            </ul>
     </div>
-    
+    <div class="formulario">
+        <h1>Formulario de Contacto</h1>
+    <form>
+        <div>
+            <label for="nombreusuario">Nombre</label>
+            <input type="text" name="nombreusuario" id="nombreusuario" required />
+        </div>
+        <br>
+        <div>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" />
+        </div>
+        <br>
+        <div>
+             <label for="correoelectronico">Correo electronico</label>
+             <input type="email" name="correoelectronico" id="correoelectronico" value="info@gmail.com" required/>
+        </div>
+        <br>
+        <div>
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" id="telefono" required/>
+        </div>
+        <br>
+        <div>
+            <label for="asunto">Asunto</label>
+            <textarea name="asunto" id="asunto" required></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </div>
+    <div class="contactos">
+        <h2>Contacte con nosotros</h2>
+      <h3> &#9990 944123321</h3>  
+      <h3> &#9990 662343212</h3>
+      <h3 class="email"> &#9993 <span > Booggarts.Potugalete@gmail.com</span></h3> 
+      
+      <footer>
+        <div class="firstfooter">
+          <div class="web">
+            <a href="https://www.facebook.com/EuskadiQuidditch"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/EuskalQuidditch"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/EuskadiQuidditch"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/euskadiquidditch/"><i class="fa-brands fa-instagram"></i></a>
+              <div class="subscribe">
+                <h4>Subscribe to our newsletter</h4>
+                <div class="email">
+                  <input type="Email" placeholder="Email">
+                  <i class="icon fa fa-envelope"></i>
+                  <button type="submit">Subscribe</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="sponsors">
+          <a href="https://www.nike.com/es/"><img src="img/nike.png" alt="Nike"></a>
+          <a href="https://www.bezoya.es/"><img src="img/bezoya.png" alt="bezoya"></a>
+          <a href="https://www.santander.com/en/home"><img src="img/santander.png" alt="santander"></a>
+          <a href="https://www.joma-sport.com/"><img src="img/joma.png" alt="joma"></a>
+          <a href="https://www.decathlon.com/"><img src="img/decathlon.png" alt="decathlon"></a>
+        </div>
+          <div class="copy">
+            &copy;Boggarts Euskadi Quidditch
+          </div>
+      </footer>
+
+
 </body>
 </html>
