@@ -5,12 +5,7 @@
 }
 
 
-.header {
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    justify-content: space-between;
-}
+
 
 
 
@@ -52,15 +47,7 @@ a {
     padding-right: 1rem;
 }
 
-.title {
-    display: grid;
-    /* grid-template-columns: min-content; */
-    /* flex-direction: row;
-    font-weight: bolder;
-    padding-left: 3%;
-    /* width: 80% */
 
-}*/
 
 /* img {
     size: 10%;
