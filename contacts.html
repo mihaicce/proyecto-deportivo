@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacts</title>
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="resultados.html">
+
 
 </head>
 <body>
@@ -18,11 +21,12 @@
                 <li>Si quieres apoyar con donativos</li>
            </ul>
     </div>
-    <form>
+    <div class="formulario">
         <h1>Formulario de Contacto</h1>
+    <form action="resultados.html" method="get">
         <div>
             <label for="nombreusuario">Nombre</label>
-            <input type="text" name="nombreusuario" id="nombreusuario" />
+            <input type="text" name="nombreusuario" id="nombreusuario" required />
         </div>
         <br>
         <div>
@@ -32,23 +36,32 @@
         <br>
         <div>
              <label for="correoelectronico">Correo electronico</label>
-             <input type="email" name="correoelectronico" id="correoelectronico" />
+             <input type="email" name="correoelectronico" id="correoelectronico" required/>
         </div>
         <br>
         <div>
             <label for="telefono">Telefono</label>
-            <input type="number" name="telefono" id="telefono" />
+            <input type="number" name="telefono" id="telefono" required/>
         </div>
         <br>
         <div>
             <label for="asunto">Asunto</label>
-            <textarea name="asunto" id="asunto"></textarea>
+            <textarea name="asunto" id="asunto" required></textarea>
         </div>
         <br>
         <div>
             <button type="submit">Enviar</button>
         </div>
     </form>
+    </div>
+    <div class="contactos">
+        <h2>Contacte con nosotros</h2>
+      <h3> &#9990 944123321</h3>  
+      <h3> &#9990 662343212</h3>
+      <br>
+      <input type="Email" placeholder="Email">  
+    <i class="icon fa fa-envelope"></i>
+
     
 </body>
 </html>
