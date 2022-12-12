@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*about page styles*/
+
+.page-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.page-container > .content-wrapper {
+    width: 80%;
+}
+
+.page-container > .content-wrapper > #portada {
+    width: 45%;
+    margin: 1.5rem 2.5rem 1.5rem 0;
+    float:left;
+    border: 1px solid #cea135;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-family:'Dancing Script', cursive;
+    font-size:22px;
+    color:#b61e1a;
+}
+
+/*juego page styles*/
+
+.history-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+ h2 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    color:transparent;
+    font-weight: normal;
+    background:linear-gradient(
+        orange,
+        red,
+        green);
+    -webkit-background-clip: text;
+ }
+.historia {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
