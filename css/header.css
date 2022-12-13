@@ -6,8 +6,7 @@
 
 
 .header {
-    display: flex;
-    margin-top: 2rem;
+    display: flex;   
     padding-top: 2rem;
     background-color: #8a9d91;
     height: 10rem;
@@ -68,6 +67,6 @@ nav li>ul {
         position:absolute;
         top:30px;
         left:0px;
-        background:bisque;
+        background-color:#8a9d91;
        
   }  
