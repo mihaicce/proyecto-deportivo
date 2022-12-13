@@ -6,13 +6,11 @@
 
 
 .header {
-    /* display: flex; */
-    /* margin-top: 2rem; */
-   
+    display: flex;   
     padding-top: 2rem;
     background-color: #8a9d91;
     height: 10rem;
-    /* justify-content: space-between;    */
+    justify-content: space-between;   
     
 }
 
@@ -27,7 +25,7 @@
 }
 
 /* .logo {
-  margin-top: -2rem;
+    margin-top: -2rem;
    float:right;
    max-width: 45%;
    height: auto;
@@ -38,6 +36,13 @@ a {
     font-weight: bold;
     color: black;
     padding-right: 1rem;
+}
+
+.menu {
+    width: 40%;
+    display: inline-flex;
+    text-align: end;
+    align-self: center;
 }
 
 nav li {
@@ -62,6 +67,6 @@ nav li>ul {
         position:absolute;
         top:30px;
         left:0px;
-        background:bisque;
+        background-color:#8a9d91;
        
   }  
