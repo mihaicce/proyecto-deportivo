@@ -1,7 +1,7 @@
-gitfooter {
+footer {
     width: 100%;
     height: auto;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
 }
 
@@ -25,9 +25,57 @@ i {
 }
 
 div.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
     padding-right: 3em;
     text-align: end;
     font-size: 2em;
+}
+
+.subscribe h4 {
+    font-size: 1rem;
+    color: rgb(20, 19, 19);
+}
+
+.subscribe .email {
+    height: 2rem;
+    position: relative;
+}
+
+.subscribe .email input {
+    height: 100%;
+    width: 12rem;
+    padding-left: 15%;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.7rem;
+    border: 0.1rem transparent rgb(137, 131, 131);
+}
+
+.subscribe .email .icon {
+    position: absolute;
+    right: 80%;
+    top: 50%;
+    font-size: 1rem; 
+}
+
+.subscribe .email button {
+    position: absolute;
+    right: 6%;
+    transform: translate(12%, 40%);
+    padding: 2% 4%;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    border: 0.5rem transparent gray;
+    outline: none;
+    background: forestgreen; 
+    color: white;
+    transition: 0.3%;
+}
+
+.subscribe .email button:hover {
+    background: red;
 }
 
 .footer-sponsors {
@@ -50,6 +98,7 @@ img {
 .footer-copyright {
     padding: 0.5em 5em;
     text-align: end;
-    font-size: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
     background-color:  #aaaaaa ;
 }

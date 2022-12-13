@@ -6,20 +6,32 @@
 
 
 .header {
-    display: flex;
+    /* display: flex; */
+    /* margin-top: 2rem; */
+   
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    justify-content: space-between;   
+    background-color: #8a9d91;
+    height: 10rem;
+    /* justify-content: space-between;    */
+    
 }
 
 
-
 .logo {
+    margin-top: -1rem;
+    float: left;
+    max-width: 10%;
+    height: auto;
+    margin-right: 20rem;
+    margin-left: 3rem;
+}
+
+/* .logo {
   margin-top: -2rem;
    float:right;
    max-width: 45%;
    height: auto;
-}
+} */
 
 a {
     text-decoration: none;
