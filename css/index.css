@@ -7,7 +7,8 @@
 .contenido {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 98%;
+    grid-template-rows: auto auto;
+    width: 100%;
     height: 100%;
     background-color: antiquewhite;
     margin: 0 auto;
@@ -27,36 +28,40 @@
     height: 7rem;
   
 }
+.cj2 img {
+    width: 100%;
+    height: 100%;
+}
 
 .cj2 {
+    display: grid;
     grid-template-columns: auto;
-    grid-column: 1/3;
-    grid-row: 2/5;
-    box-sizing: border-box;
+    grid-column: 1/4;
+    height: 100%;
+    
     width: 100%;
+    align-items: center;
 }
 
 .img {
     object-fit: fill;
-    width: 100%;
+    height: 100%;
+    
       
 }
 .cj3 {
-    grid-row: 3/4;
     grid-column: 1/2;
-
+    height: 7rem;
 }
 
 .cj4 {
-    grid-row: 4/4;
-    grid-column: 2/2;
-
+    grid-column: 2/3;
+    height: 7rem;
 }
 
 .cj5 {
-    grid-row: 5/4;
-    grid-column: 3/2;
-
+    grid-column: 3/4;
+    height: 7rem;
 }
 a {
     text-decoration: none;
@@ -65,93 +70,7 @@ a {
     padding-right: 1rem;
 }
 
-
-
-img {
-    
-    /* height: 1rem; */
-}
-
-.web {
-    background-color: rgb(88, 88, 119);
-    height: 4rem;
-    padding-top: 1.5rem;
-    padding-left: 8rem;
-}
-
 h1 {
     text-align: center;
     color: red;
-    margin-bottom: 3rem;
-}
-
-.subscribe {
-    position: absolute;
-    top: 125%;
-    left: 50%;
-    transform: translate(-5%, -10%);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.subscribe h4 {
-    font-size: 1rem;
-    color: rgb(20, 19, 19);
-}
-
-.subscribe .email {
-    height: 2rem;
-    position: relative;
-}
-
-.subscribe .email input {
-    height: 100%;
-    width: 12rem;
-    padding-left: 15%;
-    outline: none;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 0.7rem;
-    border: 0.1rem transparent rgb(137, 131, 131);
-}
-
-.subscribe .email .icon {
-    position: absolute;
-    right: 80%;
-    top: 140%;
-    font-size: 1rem; 
-}
-
-.subscribe .email button {
-    position: absolute;
-    right: 6%;
-    transform: translate(12%, 150%);
-    padding: 2% 3%;
-    cursor: pointer;
-    border-radius: 0.7rem;
-    border: 0.5rem transparent gray;
-    outline: none;
-    background: forestgreen; 
-    color: white;
-    transition: 0.3%;
-}
-
-.subscribe .email button:hover {
-    background: red;
-}
-
-.copy {
-    padding-top: 0.3rem;
-    height: 2rem;
-    text-align: center;
-    width: 100%;
-    background-color: rgb(88, 88, 119);
-}
-
-.sponsors {
-    padding-bottom: 1rem;
-    text-align: center;
-    background-color: rgb(117, 117, 169);
 }
