@@ -4,13 +4,20 @@
     margin: 1rem auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    justify-content: center;
+    grid-gap: .6rem;
+    padding: 1.5rem;
+}
 
+.fotografia {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 
 .fotografia img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: blue;
 }
+
