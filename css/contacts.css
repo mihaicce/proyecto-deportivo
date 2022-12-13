@@ -5,12 +5,64 @@
 .email span{
     color: brown;
     
+
 }
 h3.email {
+    
+}
+h1{
+    color: blue;
+    padding: 2rem;
+    background-color: darkslategrey;
+}
+h3 {
+    text-align: center;
+    color: darkgoldenrod;
     font-size: 1.5rem;
+    padding: 1rem; 
+}
+.jugar-2{
+    font-size: 1.5rem;
+    margin: 5rem;
+    color: firebrick;
+    padding: 1rem;
+}
+.formulario{
+    font-size: 1rem;
+    text-align: center;
+}
+    .formulario h2 {
+font-size: 2rem;
+color: hsl(112, 50%, 20%);
+;
+
+    }
+
+
+.contactos-2 {
+    text-align: center;
+    padding: 2rem;
+    border: 3rem;
+    background-color: #076363;
+    color: crimson;
+}
+    .contactos-2 h2{
+        font-size: 2rem;
+    }
+    
+
+ul {
+    border: 3rem;
+    font-size: 1.5rem;
+    background-color: cornflowerblue;
+    
+
+
+    
 }
 
-h1 {
-    color: blue;
-}
+
+
+
+
     

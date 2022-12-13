@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/news.css" />
-    <link rel="icon" href="img/boggarts-logo-transparencia.webp" />
+    <!-- <link rel="icon" href="img/boggarts-logo-transparencia.webp" /> -->
     <script src="https://kit.fontawesome.com/8c655d3807.js" crossorigin="anonymous"></script>
   </head>
   
@@ -17,20 +17,31 @@
     <!--header: igual en todas las paginas. Aplica el mismo css-->
     <header class="header">
       <div class="title">
-        <img class="logo" src="img/BizkaiaBoggartsSnitch.png" alt="Logo del Equipo">
+        <img class="logo" src="img/boggarts-logo-transparencia.png" alt="Logo del Equipo">
       </div>
-      <div class="menu">
-        <a href="about.html">ABOUT</a>
-        <a href="photos">PHOTOS <i class="fa-solid fa-image"></i></a>
-        <a href="news.html">NEWS <i class="fa-regular fa-file-lines"></i></a>
-        <a href="contacts.html">CONTACT <i class="fa-regular fa-envelope-open"></i></a>
+      <div class="menu"> 
+        <nav>
+          <ul> 
+            <li><a href="about.html">ABOUT</a><i class="fa-solid fa-broom-ball"></i>
+              <ul>
+                <li><a href="juego.html">El juego</a></li>
+               <li><a href="equipo.html">Nuestro equipo</a></li>
+              </ul></li>
+            <li><a href="galeria.html">PHOTOS</a><i class="fa-solid fa-image"></i></li>   
+            <li><a href="news.html">NEWS</a><i class="fa-regular fa-file-lines"></i></li>
+            <li><a href="contacts.html">CONTACT</a><i class="fa-regular fa-envelope-open"></i></li>
+            </ul>
+            </nav>
+        <!-- <a href="contact">CONTACT <i style="font-size: 24px" class="far">&#xf2b6;</i></a> -->
       </div>
     </header>
 
     <!--main: cada uno hace el suyo-->
     <main>
       <h1>NEWS</h1>
-      <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=3688d5144952e1673cbef3818bd1d8698910875ceb093c3214471b3db16e00ac%40group.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <div class="calendar">
+        <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=3688d5144952e1673cbef3818bd1d8698910875ceb093c3214471b3db16e00ac%40group.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
     </main>
     
     <!--footer: igual en todas las paginas. Aplica el mismo css-->
@@ -45,11 +56,13 @@
         </div>
         <div class="subscribe">
           <h4>Subscribe to our newsletter</h4>
+        
           <div class="email">
             <input type="Email" placeholder="Email">
             <i class="icon fa fa-envelope"></i>
             <button type="submit">Subscribe</button>
           </div>
+      
         </div>
       </div>
       <div class="footer-sponsors">
