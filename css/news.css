@@ -1,4 +1,5 @@
 h1 {
+    font-size: 3rem;
     color: black;
     font-weight: bold;
     text-align: center;
@@ -18,7 +19,41 @@ h1 {
     text-align: center;
 }
 
+#calendarTitle {
+    text-align: center;
+    margin: 2rem 2rem 3rem 2rem;
+    font-size: 2rem;
+    color:transparent;
+    background:linear-gradient(
+        orange,
+        red,
+        green);
+    -webkit-background-clip: text;
+}
+
 .news {
     margin: 2rem auto;
     width: 80%;
+}
+
+.news-title {
+    text-align: center;
+    color:transparent;
+    background:linear-gradient(
+        orange,
+        red,
+        green);
+    -webkit-background-clip: text;
+    margin: 2rem 2rem 3rem 2rem;
+    font-size: 2rem;
+}
+
+.news-list {
+    align-self: center;
+    list-style: none;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 1rem;
 }
