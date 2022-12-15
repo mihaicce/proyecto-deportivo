@@ -9,6 +9,8 @@
     display: flex;   
     padding-top: 2rem;
     background-color: #8a9d91;
+    background-image: url(../img/headerpic.jpeg);
+    background-size: cover;
     height: 10rem;
     justify-content: space-between;   
     
