@@ -7,15 +7,17 @@
     
 
 }
-h3.email {
-    
+.jugar h2 {
+    color: rgb(114, 73, 73);
+    padding: 2rem;
+    text-align: center;
 }
 h1{
     color: blue;
     padding: 2rem;
     background-color: darkslategrey;
 }
-h3 {
+ h3 {
     text-align: center;
     color: darkgoldenrod;
     font-size: 1.5rem;
@@ -28,15 +30,18 @@ h3 {
     padding: 1rem;
 }
 .formulario{
-    font-size: 1rem;
+    color: darkslategrey;
+    font-size: 2rem;
     text-align: center;
+    
 }
     .formulario h2 {
 font-size: 2rem;
 color: hsl(112, 50%, 20%);
-;
-
-    }
+  }
+label {
+    background-image: ;
+}
 
 
 .contactos-2 {
