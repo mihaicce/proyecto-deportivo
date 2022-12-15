@@ -6,13 +6,13 @@
 
 
 .header {
-    display: flex;   
+    /* display: flex;    */
     padding-top: 2rem;
     background-color: #8a9d91;
     background-image: url(../img/headerpic.jpeg);
     background-size: cover;
     height: 10rem;
-    justify-content: space-between;   
+    /* justify-content:right;    */
     
 }
 
@@ -22,7 +22,7 @@
     float: left;
     max-width: 10%;
     height: auto;
-    margin-right: 20rem;
+    margin-right: 18.5rem;
     margin-left: 3rem;
 }
 
@@ -41,10 +41,12 @@ a {
 }
 
 .menu {
-    width: 40%;
+    width: 60%;
     display: inline-flex;
-    text-align: end;
-    align-self: center;
+    text-align: right;
+    align-self: right;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 nav li {

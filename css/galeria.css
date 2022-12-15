@@ -59,6 +59,12 @@
 	margin: 0 10px;
 }
 
+.modal i {
+	color: #fff;
+	font-size: 2rem;
+}
+
+
 .imagen a:nth-child(2) {
 	margin: 0;
 	height: 100%;
@@ -76,8 +82,8 @@
 .cerrar {
 	display: block;
 	background: #fff;
-	width: 25px;
-	height: 25px;
+	width: 2rem;
+	height: 2rem;
 	margin: 15px auto;
 	text-align: center;
 	text-decoration: none;
@@ -99,6 +105,14 @@
     padding: 1.5rem;
 }
 
+main {
+	/* background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5)), url(../img/euskadi.webp); */
+	background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
+	background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .fotografia {
     display: flex;
     flex-direction: column;
@@ -109,9 +123,17 @@
 .fotografia p{
 	color: rgb(0, 0, 0);
 	font-weight: 700;
+	margin-bottom: 1rem;
 }
 
 .fotografia img {
-    width: 300px;
-    border: 1px solid black;
+    width: 100%;
+	-webkit-box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
+	-moz-box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
+	box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
+	border-radius: 5px;
+}
+
+.subscribe {
+	display: hidden;
 }
