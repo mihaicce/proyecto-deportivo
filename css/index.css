@@ -5,11 +5,11 @@
 }
 
 .titlu {
-    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5)), url(../img/euskadi.webp);
+    /* background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5)), url(../img/euskadi.webp);
 
     background-size: contain;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .contenido {
@@ -110,26 +110,30 @@ a {
     padding-right: 1rem;
 }
 
-h1 {
+/* h1 {
     text-align: center;
     color: red;
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
-
-/* body {
-    background-image: url(../img/boggarts-logo-transparencia.png);
 } */
+
+body {
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(3, 6, 4, 0.5)), url(../img/euskadi.webp);
+
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
 
 .clasif {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     width: 100%;
-    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5)), url(../img/euskadi.webp);
+    /* background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5)), url(../img/euskadi.webp);
     background-size: contain;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .col-left {
@@ -193,4 +197,11 @@ th {
     display: table-cell;
     vertical-align: inherit;
     text-align: center;
+}
+
+#boggarts {
+    text-align: left;
+    margin-left: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
