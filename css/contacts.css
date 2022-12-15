@@ -2,47 +2,59 @@
     margin: 0;
     padding: 0;
 }
+
+.contenedor {
+    width: 70%;
+}
+
 .email span{
     color: brown;
-    
-
 }
+    h1{
+        color: blue;
+        padding: 2rem;
+        background-color: darkslategrey;
+        text-align: center;
+    }  
+
+
 .jugar h2 {
     color: rgb(114, 73, 73);
-    padding: 2rem;
     text-align: center;
-}
-h1{
-    color: blue;
+    background-color: rgb(169, 187, 137);
     padding: 2rem;
-    background-color: darkslategrey;
 }
+.formulario h2 {
+    font-size: 2rem;
+    color: hsl(112, 50%, 20%);
+    background-color: rgb(98, 102, 102);
+
+      }
+
  h3 {
-    text-align: center;
+    text-align: end;
     color: darkgoldenrod;
     font-size: 1.5rem;
     padding: 1rem; 
 }
 .jugar-2{
     font-size: 1.5rem;
-    margin: 5rem;
     color: firebrick;
-    padding: 1rem;
+    background-color: rgb(106, 161, 161);
+    padding: 2rem 15rem;
+    
 }
 .formulario{
     color: darkslategrey;
     font-size: 2rem;
     text-align: center;
+    background-color: rgb(157, 163, 163);
+    
     
 }
-    .formulario h2 {
-font-size: 2rem;
-color: hsl(112, 50%, 20%);
-  }
-label {
-    background-image: ;
-}
-
+  .contacto {
+    background-color: darkslategrey;
+  }  
 
 .contactos-2 {
     text-align: center;
@@ -54,17 +66,33 @@ label {
     .contactos-2 h2{
         font-size: 2rem;
     }
+    .contactos-3 {
+      text-align: left; 
+    }
+        
     
-
-ul {
-    border: 3rem;
-    font-size: 1.5rem;
-    background-color: cornflowerblue;
+    .contactos-4 h6 {
+       color: rgb(158, 137, 82);
     
+    }
+    .contactos-4 h4{
+        color: rgb(177, 115, 115);
 
+    }
 
-    
+.contactos-5 {
+   display: grid; 
+   grid-template-columns: auto auto;
+   text-align: center;
+   background-color: darkslategrey;
 }
+
+    
+    
+
+
+    
+
 
 
 
