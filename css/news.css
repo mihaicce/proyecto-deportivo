@@ -8,10 +8,16 @@ h1 {
 }
 
 .container {
-    background-color: rgb(180, 29, 29, 0.3);
+    background-color:#E8BBBB;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+}
+
+.calendar-container {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .calendar {
@@ -19,31 +25,16 @@ h1 {
     text-align: center;
 }
 
-#calendarTitle {
-    text-align: center;
-    margin: 2rem 2rem 3rem 2rem;
-    font-size: 2rem;
-    color:transparent;
-    background:linear-gradient(
-        orange,
-        red,
-        green);
-    -webkit-background-clip: text;
-}
-
 .news {
     margin: 2rem auto;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.news-title {
+.title {
     text-align: center;
-    color:transparent;
-    background:linear-gradient(
-        orange,
-        red,
-        green);
-    -webkit-background-clip: text;
     margin: 2rem 2rem 3rem 2rem;
     font-size: 2rem;
 }
@@ -55,5 +46,18 @@ h1 {
 
 li {
     font-size: 1.5rem;
+    padding-top: 2rem;
     margin: 1rem;
+}
+
+ul.news-list li:hover {
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes grow {
+    0% { font-size: 1.5rem }
+    100% { font-size: 3rem }
 }
