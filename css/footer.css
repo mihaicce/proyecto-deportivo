@@ -79,7 +79,7 @@ div.subscribe {
 }
 
 .footer-sponsors {
-    padding: 0.5rem;
+    padding: 2rem;
     background-color:  #8a9d91;
     display: flex;
     justify-content: space-evenly ;
@@ -97,4 +97,20 @@ img {
     font-size: 1em;
     font-weight: bold;
     background-color:  #aaaaaa ;
+}
+
+.fa-facebook:hover {
+    color: rgb(30, 50, 163);
+}
+
+.fa-twitter:hover {
+    color:rgb(64, 187, 203);
+}
+
+.fa-youtube:hover {
+    color: rgb(226, 10, 10);
+}
+
+.fa-instagram:hover {
+    color: rgb(217, 41, 94)
 }
