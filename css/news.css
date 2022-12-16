@@ -1,5 +1,8 @@
+* {
+	font-family:Helvetica, sans-serif;
+}
+
 h1 {
-    font-size: 3rem;
     color: black;
     font-weight: bold;
     text-align: center;
@@ -24,6 +27,7 @@ h1 {
 
 .calendar {
     margin: 2rem auto;
+    padding: 0 2rem;
     text-align: center;
 }
 
@@ -38,7 +42,6 @@ h1 {
 .title {
     text-align: center;
     margin: 2rem 2rem 3rem 2rem;
-    font-size: 2rem;
 }
 
 .news-list {
@@ -47,7 +50,6 @@ h1 {
 
 .new-link {
     align-self: center;
-    font-size: 1.5rem;
     padding-top: 2rem;
     margin: 1rem;
 }
