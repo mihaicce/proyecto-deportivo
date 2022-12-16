@@ -15,7 +15,7 @@
 .contenido {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto;
     width: 100%;
     height: 100%;
     /* background-color: rgb(255, 255, 255); */
@@ -40,11 +40,11 @@
 }
 
 .cj2 {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto;
-    grid-column: 1/4;
+    grid-column: 1/3;
+    grid-row: 2/5;
     height: 100%;
-    
     width: 100%;
     align-items: center;
 }
@@ -52,13 +52,12 @@
 .img {
     object-fit: fill;
     height: 100%;
-    
-      
 }
+
 .cj3 {
-    grid-column: 1/2;
-    height: 6rem;
-    background-size: contain;
+    grid-column: 3/4;
+    height: 100%;
+    background-size: cover;
 }
 
 .cj3 img {
@@ -72,14 +71,22 @@
 }
 
 .cj4 {
-    grid-column: 2/3;
-    height: 6rem;
-    background-size: 80%;
+    grid-column: 3/4; 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .cj5 img {
     width: 100%;
     height: 100%;
+}
+
+.cj5 {
+    grid-column: 3/4;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .textos a {
@@ -95,19 +102,22 @@
 }
 
 .textos a:hover {
-    color: black;
+    /* color: black; */
+    color: rgb(17, 146, 7);
+    box-shadow:inset 25rem 0 0 0 #ffffff;;
 }
 
-.cj5 {
-    grid-column: 3/4;
-    height: 6rem;
-    background-size: contain;
-}
+
 a {
-    text-decoration: none;
+    /* text-decoration: none;
     font-weight: bold;
     color: black;
-    padding-right: 1rem;
+    padding-right: 1rem; */
+    box-shadow: inset 0 0 0 0 #457d63;
+    color: #0ca74f;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 /* h1 {
@@ -199,9 +209,22 @@ th {
     text-align: center;
 }
 
-#boggarts {
+.classification {
+    padding-bottom: 2rem;
+}
+
+.titlu {
     text-align: left;
     margin-left: 2rem;
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
+
+.youtube {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+

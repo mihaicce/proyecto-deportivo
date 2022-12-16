@@ -13,7 +13,9 @@ footer {
     grid-column-gap: 10px;
 }
 
-div.web {
+.web {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     align-self: center;
     font-size: 2em;
@@ -79,7 +81,7 @@ div.subscribe {
 }
 
 .footer-sponsors {
-    padding: 2rem;
+    padding: 0.5rem;
     background-color:  #8a9d91;
     display: flex;
     justify-content: space-evenly ;
@@ -88,7 +90,6 @@ div.subscribe {
 
 img {
     width: auto;
-    height: auto;
 }
 
 .footer-copyright {
@@ -97,20 +98,4 @@ img {
     font-size: 1em;
     font-weight: bold;
     background-color:  #aaaaaa ;
-}
-
-.fa-facebook:hover {
-    color: rgb(30, 50, 163);
-}
-
-.fa-twitter:hover {
-    color:rgb(64, 187, 203);
-}
-
-.fa-youtube:hover {
-    color: rgb(226, 10, 10);
-}
-
-.fa-instagram:hover {
-    color: rgb(217, 41, 94)
 }
