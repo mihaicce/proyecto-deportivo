@@ -8,7 +8,8 @@ h1 {
 }
 
 .container {
-    background-color:#E8BBBB;
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
+	background-size: contain;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -41,24 +42,15 @@ h1 {
 }
 
 .news-list {
-    align-self: center;
     list-style: none;
 }
 
-li {
+.new-link {
+    align-self: center;
     font-size: 1.5rem;
     padding-top: 2rem;
     margin: 1rem;
 }
-
-/* ul.news-list li:hover {
-    animation-name: grow;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    cursor: pointer;
+hr {
+    margin: 2rem;
 }
-
-@keyframes grow {
-    0% { font-size: 1.5rem }
-    100% { font-size: 3rem }
-} */
