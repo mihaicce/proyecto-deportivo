@@ -12,6 +12,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    width: 100%;
 }
 
 .calendar-container {
@@ -50,7 +51,7 @@ li {
     margin: 1rem;
 }
 
-ul.news-list li:hover {
+/* ul.news-list li:hover {
     animation-name: grow;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -60,4 +61,4 @@ ul.news-list li:hover {
 @keyframes grow {
     0% { font-size: 1.5rem }
     100% { font-size: 3rem }
-}
+} */
