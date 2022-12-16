@@ -2,75 +2,104 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
 }
 
 
 .header {
-    /* display: flex;    */
-    padding-top: 2rem;
     background-color: #8a9d91;
-    background-image: url(../img/headerpic.jpeg);
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
-    height: 10rem;
-    /* justify-content:right;    */
-    
+
 }
 
 
 .logo {
-    margin-top: -1rem;
-    float: left;
-    max-width: 10%;
-    height: auto;
-    margin-right: 18.5rem;
-    margin-left: 3rem;
+    max-width: 35%; 
 }
-
-/* .logo {
-    margin-top: -2rem;
-   float:right;
-   max-width: 45%;
-   height: auto;
-} */
 
 a {
     text-decoration: none;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 900;
     color: black;
-    padding-right: 1rem;
+    padding-right: .5rem;
 }
 
 .menu {
-    width: 60%;
-    display: inline-flex;
-    text-align: right;
-    align-self: right;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.a-logo{
+    box-sizing: border-box;
+}
+
+/* Codigo agregado por Jonathan 40-76*/
+
+nav ul {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    position: relative;
+    display: flex;
+    /* flex: 1 0 40%; */
+}
+
+nav ul li ul {
+    display: none;
+    visibility: visible;
+    position: absolute;
+    top: 100% ;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li ul li {
+    justify-content: center;
+}
+
+nav ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Codigo agregado por Jonathan 40-76*/
+
+
+
 
 nav li {
     display:inline-block;
-    max-width:50%;
-    height:auto;
     padding:0.3rem 0.6rem;
     text-align:center;
     color:#000;
     position:relative;
 }
-  nav li:hover {
+
+nav li:hover {
     background-color:#fff;
     color:#831F0A;
     }
-          
+
 nav li>ul {
     display:none;
-    }      
-    nav li:hover>ul {
-        display:block;
-        position:absolute;
-        top:30px;
-        left:0px;
-        background-color:#8a9d91;
-       
-  }  
+}
+
+nav li:hover>ul {
+    display:block;
+    position:absolute;
+    background-color:#8a9d91;
+}  

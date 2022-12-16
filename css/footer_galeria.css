@@ -1,6 +1,5 @@
 footer {
     width: 100%;
-    height: auto;
     /* position: fixed; */
     bottom: 0;
 }
@@ -21,10 +20,25 @@ footer {
     font-size: 2em;
 }
 
+/*Animacion de los iconos*/
+
+/* .fa-brands:hover {
+    
+    animation-name: grow;
+    animation-duration: 1s ease;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes grow {
+    0% { font-size: 2em }
+    100% { font-size: 2.3em }
+}*/
+
 i {
     margin: 0 1em;
     color: black;
-}
+} 
 
 div.subscribe {
     display: flex;
@@ -98,4 +112,21 @@ img {
     font-size: 1em;
     font-weight: bold;
     background-color:  #aaaaaa ;
+}
+
+
+.fa-facebook:hover {
+    color: rgb(30, 50, 163);
+}
+
+.fa-twitter:hover {
+    color:rgb(64, 187, 203);
+}
+
+.fa-youtube:hover {
+    color: rgb(226, 10, 10);
+}
+
+.fa-instagram:hover {
+    color: rgb(217, 41, 94)
 }

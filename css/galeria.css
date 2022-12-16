@@ -19,6 +19,10 @@
 	
 } */
 
+* {
+	font-family:Helvetica, sans-serif;
+}
+
 /*Estilos del modal*/
 
 .modal {
@@ -98,7 +102,7 @@
 
 .contenedor-galeria {
     width: 80%;
-    margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .6rem;
@@ -106,7 +110,7 @@
 }
 
 main {
-	/* background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5)), url(../img/euskadi.webp); */
+	/* background-image: linear-gradient(to right, rgba(219, 225, 219, .7), rgba(98, 158, 131, .7), rgba(38, 105, 38, .7)), url(../img/euskadi.webp); */
 	background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
 	background-size: contain;
     background-attachment: fixed;
