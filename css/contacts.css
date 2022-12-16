@@ -76,6 +76,7 @@
     
     .contactos-4 h6 {
        color: rgb(158, 137, 82);
+       
     
     }
     .contactos-4 h4{
@@ -84,10 +85,16 @@
     }
 
 .contactos-5 {
-   display: grid; 
+  display: grid; 
    grid-template-columns: auto auto;
    text-align: center;
    background-color: darkslategrey;
+}
+.contenedor-2 {
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+
 }
 
     
