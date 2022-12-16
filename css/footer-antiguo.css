@@ -1,5 +1,6 @@
 footer {
     width: 100%;
+    height: auto;
     /* position: fixed; */
     bottom: 0;
 }
@@ -12,33 +13,16 @@ footer {
     grid-column-gap: 10px;
 }
 
-.web {
-    display: flex;
-    flex-direction: row;
+div.web {
     text-align: center;
     align-self: center;
     font-size: 2em;
 }
 
-/*Animacion de los iconos*/
-
-/* .fa-brands:hover {
-    
-    animation-name: grow;
-    animation-duration: 1s ease;
-    animation-fill-mode: forwards;
-    cursor: pointer;
-}
-
-@keyframes grow {
-    0% { font-size: 2em }
-    100% { font-size: 2.3em }
-}*/
-
 i {
     margin: 0 1em;
     color: black;
-} 
+}
 
 div.subscribe {
     display: flex;
@@ -95,7 +79,7 @@ div.subscribe {
 }
 
 .footer-sponsors {
-    padding: 0.5rem;
+    padding: 2rem;
     background-color:  #8a9d91;
     display: flex;
     justify-content: space-evenly ;
@@ -104,6 +88,7 @@ div.subscribe {
 
 img {
     width: auto;
+    height: auto;
 }
 
 .footer-copyright {
@@ -113,7 +98,6 @@ img {
     font-weight: bold;
     background-color:  #aaaaaa ;
 }
-
 
 .fa-facebook:hover {
     color: rgb(30, 50, 163);
