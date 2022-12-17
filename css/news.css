@@ -7,7 +7,10 @@ h1 {
     font-weight: bold;
     text-align: center;
     background-color:  rgb(12, 96, 46, 0.6);
-   
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -16,7 +19,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .calendar-container {
@@ -33,7 +36,7 @@ h1 {
 
 .news {
     margin: 2rem auto;
-    width: 80%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
 
@@ -46,6 +49,8 @@ h1 {
 
 .news-list {
     list-style: none;
+    margin: 2rem auto;
+    padding: 0 2rem;
 }
 
 .new-link {
@@ -53,6 +58,11 @@ h1 {
     padding-top: 2rem;
     margin: 1rem;
 }
+
+.new-link:hover {
+    color: #b41d1d;
+}
+
 hr {
     margin: 2rem;
 }
