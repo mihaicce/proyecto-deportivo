@@ -1,5 +1,5 @@
 footer {
-    width: 100%;
+    width: 100vw;
     /* position: fixed; */
     bottom: 0;
 }
@@ -103,7 +103,7 @@ div.subscribe {
 }
 
 img {
-    width: auto;
+    width: 5vw;
 }
 
 .footer-copyright {

@@ -16,7 +16,8 @@
 
 
 .logo {
-    max-width: 35%; 
+    width: 10vw;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -102,4 +103,4 @@ nav li:hover>ul {
     display:block;
     position:absolute;
     background-color:#8a9d91;
-}  
+}
