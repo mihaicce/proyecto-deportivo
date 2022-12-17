@@ -5,57 +5,95 @@
 
 .contenedor {
     width: 70%;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
 }
 
 .email span{
     color: brown;
 }
-    h1{
-        color: blue;
+   .jugar h1{
+        color: black;
         padding: 2rem;
-        background-color: darkslategrey;
+        background-color:#0c602e99 ;
         text-align: center;
-    }  
+        background-color: #8a9d91;
+   
+
+}
+
+        
+     
 
 
 .jugar h2 {
-    color: rgb(114, 73, 73);
+    color: black;
     text-align: center;
-    background-color: rgb(169, 187, 137);
-    padding: 2rem;
-}
-.formulario h2 {
-    font-size: 2rem;
-    color: hsl(112, 50%, 20%);
-    background-color: rgb(98, 102, 102);
+    /*background-color: rgb(169, 187, 137);*/
+    padding: 2rem;background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
 
-      }
 
- h3 {
-    text-align: end;
-    color: darkgoldenrod;
-    font-size: 1.5rem;
-    padding: 1rem; 
 }
+
+ 
 .jugar-2{
     font-size: 1.5rem;
-    color: firebrick;
-    background-color: rgb(106, 161, 161);
+    color: black;
+    background-color: #0c602e99;
     padding: 2rem 15rem;
+    background-color: #8a9d91;
+   
+
+}
+.contenedor-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+    gap: 2rem;
     
 }
 .formulario{
     color: darkslategrey;
-    font-size: 2rem;
+    font-size: x-large;
     text-align: center;
-    background-color: rgb(157, 163, 163);
+    background-color: #9da3a3;
+    box-sizing: content-box;
+    width: 100%;
+    border-color: #204d1a;
+} 
+.formulario h2 {
+    font-size: xx-large;
+    color: #204d1a;
+    background-color: #626666;
+
+      }
     
-    
+.contactos {
+    text-align: left;
+    font-size: medium;
+    background-color: #9da3a3;
+
 }
 
-    
 
-  .contacto {
+.contactos h2 {
+    background-color: #626666;
+    color: #204d1a ;
+    font-size: xx-large;
+    text-align: center;
+    
+}   
+
+  /*.contacto {
     background-color: darkslategrey;
   }  
 
@@ -89,13 +127,11 @@
    grid-template-columns: auto auto;
    text-align: center;
    background-color: darkslategrey;
-}
-.contenedor-2 {
-    display: flex;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
+} */
 
-}
+    
+
+
 
     
     
