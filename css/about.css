@@ -2,21 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
 }
 
 /*about page styles*/
+main {
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
+	background-size: contain;
+}
+
 
 .page-container{
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
+    
 }
 
 .page-container > .content-wrapper {
     width: 80%;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
-.page-container > .content-wrapper > #portada {
+.page-container > .content-wrapper > #portada{
     width: 45%;
     margin: 1.5rem 2.5rem 1.5rem 0;
     float:left;
@@ -26,8 +34,7 @@
 .page-container > .content-wrapper p {
     letter-spacing: 1px;
     line-height: 2rem;
-    font-family:'Dancing Script', cursive;
-    font-size:22px;
+    font-size: 1.3em;
     color:#b61e1a;
 }
 
@@ -37,22 +44,170 @@
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
+	background-size: contain;
+
 }
 
- h2 {
-    margin: 0;
-    font-size: 3rem;
+   h2 {
+    
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
     text-align: center;
-    font-family:'Dancing Script', cursive;
-    color:transparent;
+    /*color:transparent;
     font-weight: normal;
     background:linear-gradient(
         orange,
         red,
         green);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;*/
+    color:#b61e1a;
+    transition: 1s;
  }
-.historia {
-    margin-bottom: 10rem;
-    margin-top: 10rem;
+h2:hover {
+    letter-spacing: 3px;
+    color:antiquewhite;
+}
+ .historia {
+    padding: 3rem 5rem 3rem 5rem;
+    text-align: left;
+    line-height: 2rem;
+    
+}
+
+.reglamento-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.reglamento-wrapper > .squares {
+    width: 95%;
+    padding-bottom: 2rem;
+}
+
+.reglamento-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+    margin-bottom: 2rem;
+}
+
+.square > .img-wrapper1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.square > .img-wrapper2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.square > .img-wrapper3 img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:2em;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.square > .square-text-wrapper h1 {
+   /* color:transparent;
+    font-weight: normal;
+    padding-bottom: 2rem;
+    background:linear-gradient(
+        red,
+        green);
+    -webkit-background-clip: text; */
+    color:#b61e1a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1em;
+}
+
+/*equipo styles*/
+ 
+
+
+/*copia devcamp*/
+
+
+.equipo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.equipo-container > .content-wrapper {
+    width: 80%;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.equipo-container > .content-wrapper > #plantilla {
+    width: 45%;
+    margin: 1.5rem 2.5rem 1.5rem 0;
+    float:left;
+    border: 1px solid #cea135;
+}
+
+
+.equipo-container > .content-wrapper p {
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    
+    line-height: 1.5rem;
+    font-size: 1.3em;
+    
+}
+
+/*Square grid style*/
+.squares-wrapper {
+    display:flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:-4px;
+}
+
+.square > .img-wrapper img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square > .square-text-wrapper h3 {
+    color:#b61e
 }
