@@ -128,8 +128,7 @@ a {
 } */
 
 body {
-    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(3, 6, 4, 0.5)), url(../img/euskadi.webp);
-
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621)), url(../img/euskadi.webp);
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat; 
