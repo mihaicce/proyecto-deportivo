@@ -125,10 +125,10 @@
 
 main {
 	/* background-image: linear-gradient(to right, rgba(219, 225, 219, .7), rgba(98, 158, 131, .7), rgba(38, 105, 38, .7)), url(../img/euskadi.webp); */
-	/* background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
+	background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
 	background-size: contain;
     background-attachment: fixed;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 
 
