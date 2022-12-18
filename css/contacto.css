@@ -12,7 +12,7 @@
 }
    .jugar h1{
         color: black;
-        padding: 2rem;
+        padding: 2vh;
         background-color:#0c602e99 ;
         text-align: center;
         background-color: #8a9d91;
@@ -24,23 +24,23 @@
     color: black;
     text-align: center;
     /*background-color: rgb(169, 187, 137);*/
-    padding: 2rem;background-color: #8a9d91;
+    padding: 3vh;background-color: #8a9d91;
     /* background-image: url(../img/headerpic.jpeg); */
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
 }
 .jugar-2{
-    font-size: 1.5rem;
+    font-size: 3.5vh;
     color: black;
     background-color: #0c602e99;
-    padding: 2rem 15rem;
+    padding: 3vh 15vh;
     background-color: #8a9d91;
     /* background-image: url(../img/headerpic.jpeg); */
     background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
 }
 .jugar-2 :hover {
-    color: red;
+    color: darkred;
 
 }
 .contenedor-2 {
@@ -51,7 +51,7 @@
     /* background-image: url(../img/headerpic.jpeg); */
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
-    gap: 2rem;
+    gap: 6vh;
     
 }
 .formulario{
@@ -75,7 +75,7 @@
     /* background-image: url(../img/headerpic.jpeg); */
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
-padding-top: 1rem;
+padding-top: 2vh;
  }
     
 .contactos {
@@ -98,20 +98,18 @@ padding-top: 1rem;
     color: #204d1a ;
     font-size: xx-large;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 3vh;
 }   
 .espacio-arriba {
-    padding-top: 1rem;
+    padding-top: 3vh;
 }
 .contactos h3, h4 {
-    padding-left: 1rem;   
+    padding-left: 3vh;   
 }
 
 h3:hover {
-    color: white;
+    color: darkred;
 } 
-
-
 
     
     
