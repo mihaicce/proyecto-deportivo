@@ -6,7 +6,8 @@ h1 {
     color: black;
     font-weight: bold;
     text-align: center;
-    background-color:  rgb(12, 96, 46, 0.6);
+    background-color:  #8A9D91;
+    padding: 2rem;
 }
 
 h2 {
