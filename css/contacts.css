@@ -47,7 +47,9 @@
     background-color: #0c602e99;
     padding: 2rem 15rem;
     background-color: #8a9d91;
-   
+}
+.jugar-2 :hover {
+    color: red;
 
 }
 .contenedor-2 {
@@ -70,11 +72,12 @@
     width: 100%;
     border-color: #204d1a;
 } 
+
 .formulario h2 {
     font-size: xx-large;
-    color: #204d1a;
+    color:  #204d1a;
     background-color: #626666;
-
+padding-top: 1rem;
       }
     
 .contactos {
@@ -90,9 +93,15 @@
     color: #204d1a ;
     font-size: xx-large;
     text-align: center;
-    
+    padding-top: 1rem;
 }   
-
+.espacio-arriba {
+    padding-top: 1rem;
+}
+.contactos h6 :hover {
+color: red;
+font-size: 2rem;
+}
   /*.contacto {
     background-color: darkslategrey;
   }  
