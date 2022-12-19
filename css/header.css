@@ -20,6 +20,21 @@
     margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 980px) {
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    .logo {
+        width: 25vw;
+    }
+}
+
+
+
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -139,15 +154,13 @@ nav li:hover>ul {
 
 
 @media only screen and (max-width: 980px) {
-    .contenedor-galeria {
+     .nav {
         background-color: rgb(251, 255, 0);
-		grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
     }
+
 }
 
-@media only screen and (max-width: 430px) {
-    .contenedor-galeria {
-		width: 100%;
-		grid-template-columns: 1fr;
-    }
+@media only screen and (max-width: 480px) {
+
 }
