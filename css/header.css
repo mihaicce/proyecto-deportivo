@@ -16,7 +16,8 @@
 
 
 .logo {
-    max-width: 35%; 
+    width: 10vw;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -36,6 +37,28 @@ a {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 980px) {
+
+    .a-logo {
+    display: flex;
+    justify-content: center;
+    }
+
+    .menu {
+        background-color: rgb(251, 255, 0);
+        grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .contenedor-galeria {
+		width: 100%;
+		grid-template-columns: 1fr;
+    }
+}
+
 .a-logo{
     box-sizing: border-box;
 }
@@ -47,6 +70,16 @@ nav ul {
     padding:0;
     display: flex;
     flex-direction: row;
+}
+
+@media only screen and (max-width: 480px) {
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 nav ul li{
@@ -102,4 +135,19 @@ nav li:hover>ul {
     display:block;
     position:absolute;
     background-color:#8a9d91;
-}  
+}
+
+
+@media only screen and (max-width: 980px) {
+    .contenedor-galeria {
+        background-color: rgb(251, 255, 0);
+		grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .contenedor-galeria {
+		width: 100%;
+		grid-template-columns: 1fr;
+    }
+}

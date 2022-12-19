@@ -1,10 +1,17 @@
+* {
+	font-family:Helvetica, sans-serif;
+}
+
 h1 {
-    font-size: 3rem;
     color: black;
     font-weight: bold;
     text-align: center;
-    background-color:  rgb(12, 96, 46, 0.6);
-   
+    background-color:  #8A9D91;
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -13,7 +20,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .calendar-container {
@@ -24,12 +31,13 @@ h1 {
 
 .calendar {
     margin: 2rem auto;
+    padding: 0 2rem;
     text-align: center;
 }
 
 .news {
     margin: 2rem auto;
-    width: 80%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
 
@@ -38,19 +46,24 @@ h1 {
 .title {
     text-align: center;
     margin: 2rem 2rem 3rem 2rem;
-    font-size: 2rem;
 }
 
 .news-list {
     list-style: none;
+    margin: 2rem auto;
+    padding: 0 2rem;
 }
 
 .new-link {
     align-self: center;
-    font-size: 1.5rem;
     padding-top: 2rem;
     margin: 1rem;
 }
+
+.new-link:hover {
+    color: #b41d1d;
+}
+
 hr {
     margin: 2rem;
 }
