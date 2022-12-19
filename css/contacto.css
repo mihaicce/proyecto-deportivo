@@ -41,7 +41,7 @@
 }
 .jugar-2 :hover {
     color: darkred;
-
+font-size: xx-large;
 }
 .contenedor-2 {
     display: grid;
@@ -66,6 +66,7 @@
     /* background-image: url(../img/headerpic.jpeg); */
     background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
+    padding: 2vh;
 } 
 
 .formulario h2 {
@@ -87,7 +88,7 @@ padding-top: 2vh;
    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
    background-size: cover;
    color: darkslategrey;
-   
+   padding: 2vh;
 }
 
 .contactos h2 {
