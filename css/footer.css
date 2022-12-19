@@ -12,6 +12,9 @@ footer {
     grid-column-gap: 10px;
 }
 
+
+
+
 .web {
     display: flex;
     flex-direction: row;
@@ -102,7 +105,7 @@ div.subscribe {
     align-items: center;
 }
 
-img {
+.footer-sponsors img {
     width: 5vw;
 }
 
@@ -129,4 +132,67 @@ img {
 
 .fa-instagram:hover {
     color: rgb(217, 41, 94)
+}
+
+@media only screen and (max-width: 980px) {
+    .footer-contenedor {
+        
+    }
+    
+    .footer-rrss {
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+    
+    .vacio {
+        display: none;
+    }
+
+    .subscribe .email button {
+    transform: translate(100px, -30px);
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
+    
+
+
+@media only screen and (max-width: 480px) {
+
+    .footer-rrss {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vacio {
+        display: none;
+    }
+
+    .web {
+        padding-bottom: 1.5rem;
+    }
+
+    .web i{
+        font-size: 7vw;
+    }
+
+
+    .centrar{
+        justify-content: flex-start;
+    }
+
+
+    .subscribe .email button {
+    transform: translate(100px, -30px);
+    }
+
+    .footer-sponsors img{
+        width: 10vw
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
 }

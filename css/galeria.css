@@ -108,20 +108,15 @@
     }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 480px) {
     .contenedor-galeria {
+		background-color: purple;
+
 		width: 100%;
 		grid-template-columns: 1fr;
     }
 }
 
-
-/*Esta es la regla para la medida muy pequeÃ±a, mas pequeÃ±o que 300*/
-@media only screen and (max-width: 420px) {
-    .contenedor-galeria {
-        background-color: purple;
-    }
-}
 
 main {
 	/* background-image: linear-gradient(to right, rgba(219, 225, 219, .7), rgba(98, 158, 131, .7), rgba(38, 105, 38, .7)), url(../img/euskadi.webp); */
@@ -157,6 +152,12 @@ main {
 	-moz-box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
 	box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
 	border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .fotografia img {
+		width: 85vw;
+    }
 }
 
 
