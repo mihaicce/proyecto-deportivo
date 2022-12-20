@@ -36,7 +36,7 @@ https://github.com/mihaicce/proyecto-deportivo.git
 ```
 2. Abra un terminal en su Visual Studio Code, seleccione la carpeta en la que quiere poner el proyecto y clónelo (para ésto deberá tener instalado en su terminal git):
 
-![Imagen git clone](../img/img-readme/gitClone.png)
+![Imagen git clone](./img/img-readme/gitClone.png)
 ```
 $ git clone https://github.com/mihaicce/proyecto-deportivo.git
 ```
@@ -59,9 +59,10 @@ $ git clone https://github.com/mihaicce/proyecto-deportivo.git
 * May Torres
 * Jone Guerrero
 * Amaia Berrocal
-* Jonathan Echevarria
+* Jonathan Echevarria 
 * Andrés Ocina (Product owner)
 
 ## Agradecimientos
-A 
+Gracias a todas las compañeras y compañeros de la clase del bootcamp F5 por ayudarnos a resolver dudas y a superar pequeños baches que han surgido en el desarrollo de esta web. 
+En especial a Anyell y a Jessica, que nos ayudó mucho con el css de los iconos de rrss.
 

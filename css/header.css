@@ -20,21 +20,6 @@
     margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 980px) {
-
-    
-}
-
-@media only screen and (max-width: 480px) {
-
-    .logo {
-        width: 25vw;
-    }
-}
-
-
-
-
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -52,33 +37,12 @@ a {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 980px) {
-
-    .a-logo {
-    display: flex;
-    justify-content: center;
-    }
-
-    .menu {
-        background-color: rgb(251, 255, 0);
-        grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-
-    .contenedor-galeria {
-		width: 100%;
-		grid-template-columns: 1fr;
-    }
-}
 
 .a-logo{
     box-sizing: border-box;
 }
 
-/* Codigo agregado por Jonathan 40-76*/
+/* Codigo agregado*/
 
 nav ul {
     margin:0;
@@ -87,26 +51,15 @@ nav ul {
     flex-direction: row;
 }
 
-@media only screen and (max-width: 480px) {
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 nav ul li{
-    position: relative;
     display: flex;
-    /* flex: 1 0 40%; */
 }
 
 nav ul li ul {
     display: none;
     visibility: visible;
-    position: absolute;
+    position: relative;
     top: 100% ;
     left: 0;
     width: 100%;
@@ -124,7 +77,7 @@ nav ul li:hover ul{
     text-align: center;
 }
 
-/* Codigo agregado por Jonathan 40-76*/
+/* Codigo agregado*/
 
 
 
@@ -152,15 +105,66 @@ nav li:hover>ul {
     background-color:#8a9d91;
 }
 
-
 @media only screen and (max-width: 980px) {
-     .nav {
-        background-color: rgb(251, 255, 0);
-        margin: 0 auto;
+
+    .a-logo {
+    display: flex;
+    justify-content: center;
     }
 
+    .logo {
+        width: 15vw;
+    }
+
+    .menu {
+        background-color: rgb(251, 255, 0);
+        grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+    }
 }
 
-@media only screen and (max-width: 480px) {
 
+
+
+
+@media screen and (max-width:480px){
+
+    .logo {
+        width: 25vw;
+    }
+
+    .menu {
+        background-color: rgb(251, 255, 0);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown ul li{
+        position: relative;
+        display: flex;
+        flex: 1 1 100%;
+
+    } 
+
+    .dropdown ul li ul {
+        display: none;
+        position: absolute;
+        top: 100% ;
+        left: 0;
+        width: 100%;
+        background-color:#8a9d91;
+    }
+
+    .dropdown ul li:hover ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
