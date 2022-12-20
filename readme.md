@@ -59,9 +59,10 @@ $ git clone https://github.com/mihaicce/proyecto-deportivo.git
 * May Torres
 * Jone Guerrero
 * Amaia Berrocal
-* Jonathan Echevarria
+* Jonathan Echevarria 
 * Andrés Ocina (Product owner)
 
 ## Agradecimientos
-A 
+A Anyell, que nos ayudó mucho con el css de los iconos de rrss.
+A Jessica.
 
