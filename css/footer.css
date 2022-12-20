@@ -236,9 +236,9 @@ div.subscribe {
 }
 
 @media only screen and (max-width: 980px) {
-    .footer-contenedor {
+    /* .footer-contenedor {
         
-    }
+    } */
     
     .footer-rrss {
     grid-template-columns: 1fr 1fr;

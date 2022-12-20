@@ -1,6 +1,5 @@
 footer {
-    width: 100%;
-    height: auto;
+    width: 100vw;
     /* position: fixed; */
     bottom: 0;
 }
@@ -12,17 +11,33 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
 }
-
-div.web {
+.web {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     align-self: center;
     font-size: 2em;
 }
 
+/*Animacion de los iconos*/
+
+/* .fa-brands:hover {
+    
+    animation-name: grow;
+    animation-duration: 1s ease;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes grow {
+    0% { font-size: 2em }
+    100% { font-size: 2.3em }
+}*/
+
 i {
     margin: 0 1em;
     color: black;
-}
+} 
 
 div.subscribe {
     display: flex;
@@ -79,16 +94,15 @@ div.subscribe {
 }
 
 .footer-sponsors {
-    padding: 2rem;
+    padding: 0.5rem;
     background-color:  #8a9d91;
     display: flex;
     justify-content: space-evenly ;
     align-items: center;
 }
 
-img {
-    width: auto;
-    height: auto;
+.footer-sponsors img {
+    width: 5vw;
 }
 
 .footer-copyright {
@@ -113,4 +127,68 @@ img {
 
 .fa-instagram:hover {
     color: rgb(217, 41, 94)
+}
+
+
+@media only screen and (max-width: 980px) {
+    /* .footer-contenedor {
+        
+    } */
+    
+    .footer-rrss {
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+    
+    .vacio {
+        display: none;
+    }
+
+    .subscribe .email button {
+    transform: translate(100px, -30px);
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
+    
+
+
+@media only screen and (max-width: 480px) {
+
+    .footer-rrss {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vacio {
+        display: none;
+    }
+
+    .web {
+        padding-bottom: 1.5rem;
+    }
+
+    .web i{
+        font-size: 7vw;
+    }
+
+
+    .centrar{
+        justify-content: flex-start;
+    }
+
+
+    .subscribe .email button {
+    transform: translate(100px, -30px);
+    }
+
+    .footer-sponsors img{
+        width: 10vw
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
 }
