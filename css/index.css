@@ -182,6 +182,10 @@ th {
     text-align: center;
 }
 
+thead {
+    background-color: #457d63;
+}
+
 .classification {
     padding-bottom: 2rem;
 }
