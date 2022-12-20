@@ -2,6 +2,8 @@
 	font-family:Helvetica, sans-serif;
 }
 
+
+
 /*Estilos del modal*/
 
 .modal {
@@ -19,11 +21,17 @@
 	height: 100%;
 }
 
+@media only screen and (max-width: 430px) {
+
+	.modal:target{
+		display: none;
+	}
+}
+
 .modal h3 {
-	color: rgb(255, 72, 72);
 	font-size: 1.8rem;
 	text-align: center;
-	margin: 15px 0;
+	margin: 1rem 0;
 }
 
 .imagen {
@@ -61,6 +69,25 @@
 	box-sizing: border-box;
 }
 
+h2 {
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    transition: 1s;
+ }
+h2:hover {
+    letter-spacing: 3px;
+    color:white;
+}
+
+@media only screen and (max-width: 980px) {
+    .imagen img {
+		max-width: 80vw;
+    }
+}
+
 .cerrar {
 	display: block;
 	background: #fff;
@@ -87,6 +114,23 @@
     padding: 1.5rem;
 }
 
+@media only screen and (max-width: 980px) {
+    .contenedor-galeria {
+        background-color: rgb(251, 255, 0);
+		grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contenedor-galeria {
+		background-color: purple;
+
+		width: 100%;
+		grid-template-columns: 1fr;
+    }
+}
+
+
 main {
 	/* background-image: linear-gradient(to right, rgba(219, 225, 219, .7), rgba(98, 158, 131, .7), rgba(38, 105, 38, .7)), url(../img/euskadi.webp); */
 	background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
@@ -109,6 +153,12 @@ main {
 	margin: 1rem 0;
 }
 
+@media only screen and (max-width: 980px) {
+    .fotografia p {
+        font-size: 3vh;
+    }
+}
+
 .fotografia img {
     width: 100%;
 	-webkit-box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
@@ -116,4 +166,12 @@ main {
 	box-shadow: 3px 2px 10px 0px rgb(100, 121, 109);
 	border-radius: 5px;
 }
+
+@media only screen and (max-width: 480px) {
+    .fotografia img {
+		width: 85vw;
+    }
+}
+
+
 

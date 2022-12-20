@@ -6,11 +6,19 @@ h1 {
     color: black;
     font-weight: bold;
     text-align: center;
-    background-color:  rgb(12, 96, 46, 0.6);
+    background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
+    padding: 2rem;
 }
 
 h2 {
+    color: black;
     margin-bottom: 2rem;
+    transition: 1s;
+}
+
+h2:hover {
+    letter-spacing: 3px;
+    color: white;
 }
 
 .container {
@@ -22,6 +30,10 @@ h2 {
     width: 100vw;
 }
 
+.title {
+    text-align: center;
+    margin: 2rem 2rem 3rem 2rem;
+}
 .calendar-container {
     margin: 2rem auto;
     display: flex;
@@ -29,6 +41,8 @@ h2 {
 }
 
 .calendar {
+    width: 50vw;
+    height: 50vh;
     margin: 2rem auto;
     padding: 0 2rem;
     text-align: center;
@@ -40,11 +54,6 @@ h2 {
     display: flex;
     flex-direction: column;
 
-}
-
-.title {
-    text-align: center;
-    margin: 2rem 2rem 3rem 2rem;
 }
 
 .news-list {
@@ -65,4 +74,30 @@ h2 {
 
 hr {
     margin: 2rem;
+}
+
+@media screen and (max-width:960px) {
+    .calendar {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .calendar {
+        width: 90vw;
+        height: 40vh;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .news {
+        margin: auto;
+        padding: 0;
+        width: 90vw;
+    }
 }

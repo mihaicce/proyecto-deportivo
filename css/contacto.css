@@ -1,0 +1,165 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+} */
+
+.contenedor {
+    width: 70%;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+}
+   .jugar h1{
+        color: black;
+        padding: 2vh;
+        background-color:#0c602e99 ;
+        text-align: center;
+        background-color: #8a9d91;
+        /* background-image: url(../img/headerpic.jpeg); */
+        background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+        background-size: cover;
+}
+.jugar h2 {
+    color: black;
+    text-align: center;
+    /*background-color: rgb(169, 187, 137);*/
+    padding: 3vh;background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+}
+.jugar-2{
+    font-size: 3.5vh;
+    color: black;
+    background-color: #0c602e99;
+    padding: 3vh 15vh;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+}
+.jugar-2 :hover {
+    color: darkred;
+font-size: xx-large;
+}
+.contenedor-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+    gap: 6vh;
+    
+}
+.formulario{
+    color: darkslategrey;
+    font-size: x-large;
+    text-align: center;
+   /* background-color: #9da3a3;*/
+    box-sizing: content-box;
+    width: 100%;
+    border-color: #204d1a;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+    padding: 2vh;
+} 
+form {
+
+        text-align: start;
+        padding-left: 2rem;
+    }
+
+.formulario h2 {
+    font-size: xx-large;
+    color:  #204d1a;
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+padding-top: 3vh;
+ }
+ #comentario {
+    width: 40vh; height: 10vh;
+ }   
+.contactos {
+    text-align: left;
+    font-size: 2vh;
+   /* background-color: #9da3a3;*/
+   background-color: #8a9d91;
+   /* background-image: url(../img/headerpic.jpeg); */
+   background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+   background-size: cover;
+   color: darkslategrey;
+   padding: 2vh;
+}
+
+.contactos h2 {
+    background-color: #8a9d91;
+    /* background-image: url(../img/headerpic.jpeg); */
+    background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
+    background-size: cover;
+    color: #204d1a ;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 3vh;
+}   
+.espacio-arriba {
+    padding-top: 3vh;
+}
+.contactos h3, h4 {
+    padding-left: 3vh;   
+}
+.iconos {
+    margin-left: 1rem;
+}
+
+h3:hover {
+    color: darkred;
+} 
+.mapa {
+    width: 35vw;
+}
+@media screen and (max-width: 960px) {
+    /* .mapa {
+   width: ; height: 300;    
+    } */
+}
+@media screen and (max-width: 480px) {
+.contenedor-2 {
+    grid-template-columns: 1fr;
+    gap: 0;   
+}
+.formulario h2 {
+    margin-right: 1.5rem;
+}
+.contacto h2 {
+    margin-right: auto;
+}
+.mapa {
+    width: 90vw;
+    border: 0;
+    padding-left: 1rem;
+}
+
+}
+ 
+
+   
+    
+    
+    
+    
+   
+    
+
+
+
+
+    

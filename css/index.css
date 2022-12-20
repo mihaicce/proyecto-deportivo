@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621)), url(../img/euskadi.webp);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+h1 {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    text-align: left;
+    color: black;
+    transition: 1s;
+}
+
+h1:hover {
+    letter-spacing: 3px;
+    color: rgb(128, 6, 6);
+}
+
 .contenido {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -14,9 +36,9 @@
     padding: 2rem;
 }
 
-.caja {
+/* .caja {
     text-align:justify  
-}
+} */
 
 .cj1 {
     grid-column: 1/4;
@@ -37,11 +59,6 @@
     align-items: center;
 }
 
-.img {
-    object-fit: fill;
-    height: 100%;
-}
-
 .cj3 {
     grid-column: 3/4;
     height: 100%;
@@ -53,11 +70,6 @@
     width: 100%;
 }
 
-.cj4 img {
-    width: 100%;
-    height: 100%;
-}
-
 .cj4 {
     grid-column: 3/4; 
     width: 100%;
@@ -65,7 +77,7 @@
     background-size: cover;
 }
 
-.cj5 img {
+.cj4 img {
     width: 100%;
     height: 100%;
 }
@@ -77,15 +89,23 @@
     background-size: cover;
 }
 
+.cj5 img {
+    width: 100%;
+    height: 100%;
+}
+
 .textos a {
     text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: small;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-family: Helvetica;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
 }
 
 .textos  {
     text-align: center;
+    padding-top: 1rem;
    
 }
 
@@ -103,11 +123,8 @@ a {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-body {
-    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621)), url(../img/euskadi.webp);
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
+.classification {
+    padding-bottom: 2rem;
 }
 
 .clasif {
@@ -117,8 +134,40 @@ body {
     width: 100%;
 }
 
+.table-classification {
+    width: 100%;
+    overflow: auto;
+}
+
+table {
+    display: table;
+}
+
+/* .table-classification table {
+    white-space: nowrap;
+} */
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table-classification table tr td , .table-classification table tr th {
+    padding: 0.5rem;
+    border: solid rgb(72, 89, 72) 0.1rem;
+    text-align: left;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+    color: #6d0b0b;
+}
+
 .col-left {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
 
@@ -151,52 +200,6 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.table-classification {
-    width: 100%;
-    overflow: auto;
-}
-
-table {
-    display: table;
-}
-
-.table-classification table {
-    white-space: nowrap;
-}
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-.table-classification table tr td , .table-classification table tr th {
-    padding: 0.5rem;
-    border: solid rgb(72, 89, 72) 0.1rem;
-    text-align: left;
-}
-
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    text-align: center;
-}
-
-thead {
-    background-color: #457d63;
-}
-
-.classification {
-    padding-bottom: 2rem;
-}
-
-.titlu {
-    text-align: left;
-    margin-left: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-}
-
 .youtube {
     display: flex;
     flex-direction: row;
@@ -212,26 +215,256 @@ thead {
     padding-top: 2rem;
 }
 
+.siglas .vs {
 
+    width: 10vw ;
+    
+}
 
-@media screen and (max-width: 480px) {
+/* Media queries for Tablet */
+
+@media screen and (max-width: 960px) {
     .contenido {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto;
         width: 100%;
         height: 100%;
-        /* background-color: rgb(255, 255, 255); */
         margin: 0 auto;
-        padding: 2rem;
-        /* border: 0.1rem solid black; */
+        padding: 1rem;
+    }
+
+    p {
+        font-size: small;
+        text-align: center;
+    }
+
+
+    h1 {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+        font-size: 2rem;
+        text-align: left;
+        color: black;
+        transition: 1s;
+        font-size: medium;
+    }
+    
+    h1:hover {
+        letter-spacing: 3px;
+        color: rgb(128, 6, 6);
+    }
+
+    .clasif {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .col-left {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    h2 {
+        text-align: center;
+        font-size: medium;
+        padding-top: 2rem;
+    }
+    
+    
+    h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #score {
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-top: 1rem;
+    }
+    
+    #equipos {
+        margin-top: 1rem;
+        font-size: small;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+    }
+
+    .youtube {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    iframe {
+        width: 50%;
+        height: 160px;
+        align-items: center;
+    }
+
+    body {
+        background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621)); 
+    }   
+}
+
+
+/* Media queries for mobile */
+
+@media screen and (max-width: 480px) {
+    .contenido {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        padding: 1rem;
     }
     
     p {
-        font-size: small;
+        font-size: smaller;
+        text-align: center;
     }
 
-    #boggarts {
+    h1 {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0rem;
+        font-size: 2rem;
+        text-align: center;
+        color: black;
+        transition: 1s;
         font-size: small;
+        text-align: center;
     }
+    
+    h1:hover {
+        letter-spacing: 3px;
+        color: rgb(128, 6, 6);
+    }
+    
+    .cj1 {
+        grid-column: 1/4;
+        height: 7rem;
+        width: 100%;
+        height: 100%;
+      
+    }
+    
+    .cj2 {
+        grid-template-columns: 1fr;
+        grid-column: 1/4;
+        /* grid-row: 2/5; */
+        height: 100%;
+        width: 100%;
+       
+    }
+     
+    .cj3 {
+        grid-column: 1/4;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .cj4 {
+        grid-column: 1/4; 
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    
+    
+    .cj5 {
+        grid-column: 1/4;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .textos a {
+        text-align: justify;
+        /* color: rgb(255, 255, 255); */
+        font-size: 50%;
+        font-family: Helvetica;
+    }
+    
+    .clasif {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        width: 100%;
+    }
+    
+    .col-left {
+        /* box-sizing: border-box; */
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: medium;
+        padding-top: 2rem;
+    }
+    
+    
+    h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #score {
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-top: 1rem;
+    }
+    
+    #equipos {
+        margin-top: 1rem;
+        font-size: small;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+    }
+    
+    .table-classification {
+        width: 170%;
+        font-size: small;
+        padding-top: 2rem;
+    }
+    
+    .table-classification table tr td , .table-classification table tr th {
+        padding: 0.5rem;
+        border: none;
+        text-align: left;
+    }
+   
+    .youtube {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    iframe {
+        width: 60%;
+        height: 150px;
+        align-items: center;
+    }
+
+    body {
+        background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621)); 
+    }   
 }
+
+
+
