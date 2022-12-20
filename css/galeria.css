@@ -69,6 +69,19 @@
 	box-sizing: border-box;
 }
 
+h2 {
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    transition: 1s;
+ }
+h2:hover {
+    letter-spacing: 3px;
+    color:white;
+}
+
 @media only screen and (max-width: 980px) {
     .imagen img {
 		max-width: 80vw;
