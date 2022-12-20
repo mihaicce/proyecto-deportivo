@@ -35,7 +35,7 @@ main {
     letter-spacing: 1px;
     line-height: 2rem;
     font-size: 1.3em;
-    color:#b61e1a;
+    color:rgb(128, 6, 6);
 }
 
 /*juego page styles*/
@@ -158,7 +158,6 @@ h2:hover {
     
 }
 
-/*Square grid style*/
 .equipo-wrapper {
     display:flex;
     justify-content: center;
@@ -168,8 +167,6 @@ h2:hover {
     width: 95%;
     padding-bottom: 2rem;
 }
-
-
 
 .equipo-wrapper > .squares > .square {
     display: grid;
@@ -276,5 +273,14 @@ h2:hover {
     }
     .equipo-wrapper > .squares > .square {
         
-        grid-template-columns: 1fr ;}
+        grid-template-columns: 1fr ;
+    }
+     .equipo-wrapper > .squares > .square h3 {
+
+        margin-top: 2rem;
+    }
+    .page-container > .content-wrapper p {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
 }
