@@ -115,19 +115,9 @@ h3:hover {
 } 
 
 @media screen and (max-width: 480px) {
-   .contenedor-2 {
-    
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    background-color: #8a9d91;
-    /* background-image: url(../img/headerpic.jpeg); */
-    background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
-    background-size: cover;
-    gap: 6vh; 
-    
+
 }
-}  
+ 
 
    
     
