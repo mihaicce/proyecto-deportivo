@@ -78,12 +78,14 @@ font-size: xx-large;
     /* background-image: url(../img/headerpic.jpeg); */
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
     background-size: cover;
-padding-top: 2vh;
+padding-top: 3vh;
  }
-    
+ #comentario {
+    width: 40vh; height: 10vh;
+ }   
 .contactos {
     text-align: left;
-    font-size: medium;
+    font-size: 2vh;
    /* background-color: #9da3a3;*/
    background-color: #8a9d91;
    /* background-image: url(../img/headerpic.jpeg); */
@@ -113,8 +115,27 @@ padding-top: 2vh;
 h3:hover {
     color: darkred;
 } 
+@media screen and (max-width: 960px) {
+    iframe {
+   width: 400; height: 300;    
+    }
 
+}
 @media screen and (max-width: 480px) {
+.contenedor-2 {
+    grid-template-columns: 1fr;
+    gap: 0;   
+}
+/*.contactos   {
+margin-left: 10vh;
+}
+.contactos h3, h4 {
+    font-size: medium;
+}
+.contactos h2 {
+    margin-right: 10vh;
+}*/
+
 
 }
  
