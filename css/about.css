@@ -5,6 +5,7 @@
     font-family:Helvetica, sans-serif;
 }
 
+
 /*about page styles*/
 main {
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
@@ -43,7 +44,6 @@ main {
 .history-container{
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
 	background-size: contain;
 
@@ -60,7 +60,7 @@ main {
  }
 h2:hover {
     letter-spacing: 3px;
-    color: rgb(128,6,6);
+    color: white;
 }
  .historia {
     padding: 3rem 5rem 3rem 5rem;
