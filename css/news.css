@@ -1,8 +1,4 @@
-* {
-	font-family:Helvetica, sans-serif;
-}
-
-h1 {
+.news-tittle {
     color: black;
     font-weight: bold;
     text-align: center;
@@ -77,8 +73,19 @@ hr {
 }
 
 @media screen and (max-width:960px) {
+    .news-tittle {
+        font-size: larger;
+    }
+
+    .title {
+        font-size: large;
+    }
+
+    .new-link {
+        font-size: small;
+    }
     .calendar {
-        height: 30vh;
+        height: 50vh;
     }
 }
 
@@ -99,5 +106,17 @@ hr {
         margin: auto;
         padding: 0;
         width: 90vw;
+    }
+
+    .news-tittle {
+        font-size: large;
+    }
+
+    .title {
+        font-size: medium;
+    }
+
+    .new-link {
+        font-size: smaller;
     }
 }
