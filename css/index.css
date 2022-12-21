@@ -36,10 +36,6 @@ h1:hover {
     padding: 2rem;
 }
 
-/* .caja {
-    text-align:justify  
-} */
-
 .cj1 {
     grid-column: 1/4;
     padding-bottom: 2rem;
@@ -165,17 +161,15 @@ th {
 }
 
 .col-left {
-    /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
-    align-items: center;      /*.................................................................*/
+    align-items: center;      
 
 }
 
 .col-left h2 {
     text-align: center;
 }
-
 
 h3 {
     text-align: center;
@@ -210,7 +204,7 @@ p {
 }
 
 .youtube_v{
-    width: 30% ;
+    width: 40% ;
     height: 315px;
 }
 
@@ -222,7 +216,6 @@ p {
 }
 
 .siglas .vs {
-
     width: 10vw ;
     
 }
@@ -244,7 +237,9 @@ p {
         overflow: scroll;
     }
     
-    
+    body {
+        background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621))
+    }
    
 }
 
@@ -291,10 +286,6 @@ p {
     .youtube_v{
         height: 180px;
     }
-
-    
-
-
 }
 
 
