@@ -79,15 +79,28 @@ form {
 .formulario h2 {
     font-size: xx-large;
     color:  #204d1a;
-    background-color: #8a9d91;
-    /* background-image: url(../img/headerpic.jpeg); */
+    /* background-color: #8a9d91;
+    background-image: url(../img/headerpic.jpeg);
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
-    background-size: cover;
+    background-size: cover; */
 padding-top: 3vh;
  }
+
+input {
+    padding-left: 1rem;
+    width: 40vh; height: 5vh;
+    border-radius: 5px;
+
+}
+
  #comentario {
-    width: 40vh; height: 10vh;
- }   
+    padding: 1rem;
+    width: 40vh; height: 25vh;
+    resize: none;
+    color: black;
+    border-radius: 10px;
+ }
+
 .contactos {
     text-align: left;
     font-size: 2vh;
@@ -100,11 +113,17 @@ padding-top: 3vh;
    padding: 2vh;
 }
 
+.boton{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
 .contactos h2 {
-    background-color: #8a9d91;
-    /* background-image: url(../img/headerpic.jpeg); */
+    /* background-color: #8a9d91;
+    background-image: url(../img/headerpic.jpeg);
     background-image: linear-gradient(to left, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.621));
-    background-size: cover;
+    background-size: cover; */
     color: #204d1a ;
     font-size: xx-large;
     text-align: center;
@@ -118,7 +137,7 @@ padding-top: 3vh;
 }
 .iconos {
     margin-left: 1rem;
-}
+} 
 
 h3:hover {
     color: darkred;
@@ -126,6 +145,26 @@ h3:hover {
 .mapa {
     width: 35vw;
 }
+
+
+.fa-facebook:hover {
+    color: rgb(30, 50, 163);
+}
+
+.fa-twitter:hover {
+    color:rgb(64, 187, 203);
+}
+
+.fa-youtube:hover {
+    color: rgb(226, 10, 10);
+}
+
+.fa-instagram:hover {
+    color: rgb(217, 41, 94)
+}
+
+
+
 @media screen and (max-width: 960px) {
     /* .mapa {
    width: ; height: 300;    
