@@ -1,9 +1,9 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-   /* box-sizing: border-box;*/
-}
+     box-sizing: border-box;
+} */
 
 .contenedor {
     width: 70%;
@@ -70,6 +70,11 @@ font-size: xx-large;
     background-size: cover;
     padding: 2vh;
 } 
+form {
+
+        text-align: start;
+        padding-left: 2rem;
+    }
 
 .formulario h2 {
     font-size: xx-large;
@@ -111,31 +116,37 @@ padding-top: 3vh;
 .contactos h3, h4 {
     padding-left: 3vh;   
 }
+.iconos {
+    margin-left: 1rem;
+}
 
 h3:hover {
     color: darkred;
 } 
+.mapa {
+    width: 35vw;
+}
 @media screen and (max-width: 960px) {
-    iframe {
-   width: 400; height: 300;    
-    }
-
+    /* .mapa {
+   width: ; height: 300;    
+    } */
 }
 @media screen and (max-width: 480px) {
 .contenedor-2 {
     grid-template-columns: 1fr;
     gap: 0;   
 }
-/*.contactos   {
-margin-left: 10vh;
+.formulario h2 {
+    margin-right: 1.5rem;
 }
-.contactos h3, h4 {
-    font-size: medium;
+.contacto h2 {
+    margin-right: auto;
 }
-.contactos h2 {
-    margin-right: 10vh;
-}*/
-
+.mapa {
+    width: 90vw;
+    border: 0;
+    padding-left: 1rem;
+}
 
 }
  
