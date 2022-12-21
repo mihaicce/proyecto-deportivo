@@ -18,8 +18,7 @@ Consta de:
 * Contacto: En el que aparecen un formulario de contacto, su ubicación y redes sociales.
 
 ## Estado actual
-Actualmente casi listo para el primer sprint review, a falta de revisar el cumplimiento de todos los requisitos establecidos por el cliente.
-Revisar especialmente el SEO, las propiedades transform y transition y autoría de las fotos.
+Listo para el primer sprint review.
 
 ## Tecnologías utilizadas
 * HTML5
@@ -28,6 +27,7 @@ Revisar especialmente el SEO, las propiedades transform y transition y autoría 
 * Linux
 * Visual Studio Code
 * GitHub
+* Trello
 
 ## Instalación y prueba
 1. Copie la URL del proyecto:
@@ -64,5 +64,4 @@ $ git clone https://github.com/mihaicce/proyecto-deportivo.git
 
 ## Agradecimientos
 Gracias a todas las compañeras y compañeros de la clase del bootcamp F5 por ayudarnos a resolver dudas y a superar pequeños baches que han surgido en el desarrollo de esta web. 
-En especial a Anyell y a Jessica, que nos ayudó mucho con el css de los iconos de rrss.
-
+En especial a Anyell y a Jessica, que nos ayudaron mucho con el css de los iconos de rrss.
