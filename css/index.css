@@ -135,6 +135,7 @@ a {
 
 table {
     display: table;
+    background-color: #ffffffc0;
 }
 
 /* .table-classification table {

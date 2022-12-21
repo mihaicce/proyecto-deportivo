@@ -109,7 +109,8 @@ h1 {
  }
 h1:hover {
     letter-spacing: 3px;
-    color: rgb(128, 6, 6);;
+    /* color: rgb(128, 6, 6); */
+	color: #fff;
 }
 
 .cerrar {
