@@ -48,7 +48,7 @@ a {
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 75%;
     align-items: center;
     justify-content: space-between;
 }
@@ -89,9 +89,11 @@ nav ul i {
 ul li ul li{
     padding: 0;
     padding-left: 3.5rem;
-    
 }
 
+ul li ul li:hover{
+    background-color: #ada8a8;
+}
 
 nav ul {
     margin:0;

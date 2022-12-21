@@ -99,17 +99,17 @@ main {
 	box-sizing: border-box;
 }
 
-h2 {
+h1 {
 	padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: black;
     transition: 1s;
  }
-h2:hover {
+h1:hover {
     letter-spacing: 3px;
-    color:white;
+    color: rgb(128, 6, 6);;
 }
 
 .cerrar {
