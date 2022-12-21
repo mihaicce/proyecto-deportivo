@@ -56,6 +56,12 @@ font-size: xx-large;
     gap: 6vh;
     
 }
+
+li {
+    list-style: none;
+    font-size: medium;
+    
+}
 .formulario{
     color: darkslategrey;
     font-size: x-large;
@@ -166,8 +172,29 @@ h3:hover {
 
 
 @media screen and (max-width: 960px) {
-.mapa {
-   width: 45vw;    
+
+    iframe {
+        margin: 0 auto;
+    }
+
+    .mapa {
+   width: 90vw;
+    }
+
+    .contenedor-2 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .contactos h2, .contactos h3, .contactos h4, .contactos div, .iconos{
+        width: 80vw;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 480px) {
@@ -175,6 +202,22 @@ h3:hover {
     grid-template-columns: 1fr;
     gap: 0;   
 }
+
+.jugar-2 {
+    
+}
+
+.jugar-2 li {
+    font-size: large;
+
+}
+
+form {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+
 .formulario h2 {
     margin-right: 1.5rem;
 }
@@ -186,11 +229,7 @@ h3:hover {
     border: 0;
     padding-left: 1rem;
 }
-li {
-    list-style: none;
-    font-size: medium;
-    
-}
+
 .contenedor h2 {
     font-size: larger;
 }
