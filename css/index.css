@@ -28,8 +28,8 @@ h1:hover {
 
 .contenido {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto; */
     width: 100%;
     height: 100%;
     margin: 0 auto;
