@@ -147,7 +147,14 @@ h3:hover {
     border: 0;
     padding-left: 1rem;
 }
-
+li {
+    list-style: none;
+    font-size: medium;
+    
+}
+.contenedor h2 {
+    font-size: larger;
+}
 }
  
 
