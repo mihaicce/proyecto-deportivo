@@ -5,18 +5,15 @@
     font-family:Helvetica, sans-serif;
 }
 
-
 /*about page styles*/
 main {
     background-image: linear-gradient(to right, rgba(219, 225, 219, 0.883), rgba(98, 158, 131, 0.5), rgba(38, 105, 38, 0.753));
 	background-size: contain;
 }
 
-
 .page-container{
     display: flex;
     justify-content: center;
-    
 }
 
 .page-container > .content-wrapper {
@@ -50,7 +47,6 @@ main {
 }
 
    h2 {
-    
     margin-top: 2rem;
     padding-bottom: 2rem;
     font-size: 2rem;
@@ -58,10 +54,12 @@ main {
     color: black;
     transition: 1s;
  }
+
 h2:hover {
     letter-spacing: 3px;
     color: white;
 }
+
  .historia {
     padding: 3rem 5rem 3rem 5rem;
     text-align: left;
@@ -148,14 +146,11 @@ h2:hover {
     border: 1px solid #cea135;
 }
 
-
 .equipo-container > .content-wrapper p {
     letter-spacing: 1px;
     margin-top: 2rem;
-    
     line-height: 1.5rem;
     font-size: 1.3em;
-    
 }
 
 .equipo-wrapper {
@@ -236,19 +231,23 @@ h2:hover {
         font-size: large;
         margin-top: 1rem;
     }
+
     h2 {
         padding-top: 0px;
         padding-bottom: 0px;
         font-size: larger;
     }
+
     .historia {
         padding: 1rem;
         line-height: 2rem;
     }
+
     .reglamento-wrapper {
         padding-top: 1rem;
         
     }
+
     .reglamento-wrapper > .squares >.square {
         grid-template-columns: 1fr;
         margin-bottom: 1rem;  
@@ -257,9 +256,11 @@ h2:hover {
     .square > .square-text-wrapper {
         padding:1rem;
     }
+
     .square > .img-wrapper2 {
         margin-top: -2rem;
     }
+
     .square > .img-wrapper3 {
         padding-left: 0.6rem;
     }
@@ -268,17 +269,20 @@ h2:hover {
         font-size: small;
         margin:1rem;
     }
+
     .equipo-container > .content-wrapper p {
         margin-top: 0.5rem;
     }
+
     .equipo-wrapper > .squares > .square {
         
         grid-template-columns: 1fr ;
     }
-     .equipo-wrapper > .squares > .square h3 {
 
+     .equipo-wrapper > .squares > .square h3 {
         margin-top: 2rem;
     }
+    
     .page-container > .content-wrapper p {
         font-size: 1rem;
         line-height: 1.1rem;
